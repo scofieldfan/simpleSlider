@@ -1,0 +1,58 @@
+/*
+* @Author: fanzhang
+* @Date:   2016-08-05 15:22:03
+* @Last Modified by:   fanzhang
+* @Last Modified time: 2016-08-05 15:37:40
+*/
+.sub-title {
+	color: #20456c;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 0.1rem  0;
+	font-weight: bold;
+}
+.age-container {
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	text-align: left;	
+	-webkit-mask: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.age-container	a {
+	border-left: 1px solid #346290;
+	display: inline-block;
+	margin-left: -1px;	
+	width: 18px;
+	height: 10px;
+	vertical-align: top;
+	color: #20456c;
+}
+.age-container .high {
+	height: 20px;
+	text-align: center;
+	position: relative;
+}
+.age-container .high span {
+	position: absolute;
+	left: -7px;
+	top: 30px;
+}
+.bg-container {
+	width: 5000px;
+	position: absolute;
+	transition: All 0.05s ease;
+	-webkit-transition: All 0.05s ease;
+	-moz-transition: All 0.01s ease;
+	-o-transition: All 0.01s ease;
+}
+.needle {
+	position: relative;
+	top: 0px;
+}
+.needle a {
+	border-left-color: #ff750f;
+	height: 27px;
+	border-width: 3px;
+}
